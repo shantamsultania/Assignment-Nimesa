@@ -1,4 +1,13 @@
 def valid_date(date):
+    c = 0
+    for i in date:
+        if i == '-':
+            c += 1
+        if c > 2:
+            return False
+    if c < 2:
+        return False
+
     date_word = date.split("-")
     year = date_word[0]
     month = date_word[1]
@@ -13,17 +22,21 @@ def valid_date(date):
         return False
     elif len(day) != 2:
         return False
-    c = 0
-    for i in date:
-        if i == '-':
-            c += 1
-        if c > 2:
-            return False
 
     return True
 
 
+
 def valid_time(time):
+    c = 0
+    for i in time:
+        if '0' <= i <= '9':
+            continue
+        else:
+            if i == ':':
+                c += 1
+            if c > 2:
+                return False
     time_word = time.split(":")
     hours = time_word[0]
     min = time_word[1]
@@ -38,14 +51,5 @@ def valid_time(time):
         return False
     elif len(time_word) != 3:
         return False
-    c = 0
-    for i in time:
-        if '0' <= i <= '9':
-            continue
-        else:
-            if i == ':':
-                c += 1
-            if c > 2:
-                return False
 
     return True
