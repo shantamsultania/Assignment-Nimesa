@@ -81,6 +81,10 @@ Responsible for Validating the user input that is if the user has inputted a val
 
 Responsible for getting the JSON data from the API and filtering out the data in the proper format that has been sent to the user as well as saving the data in a CSV file.
 
+5) Main.py
+
+to execute the program
+
 ## OutPut 
 
 1. Menu 
@@ -92,6 +96,7 @@ Responsible for getting the JSON data from the API and filtering out the data in
 4. User input = 3
 
 5. User input = 4
+
 
 
 
