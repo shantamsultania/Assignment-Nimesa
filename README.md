@@ -89,13 +89,39 @@ to execute the program
 
 1. Menu 
 
+
+      Welcome to Weather Guide   
+
+      Press 1 : To get Temperature Details 
+
+      Press 2  : To get Wind Speed 
+
+      Press 3 : To get Pressure 
+
+      Press 0 : To exit the program 
+
+      Enter your choice 
+
 2. User input = 1
+
+
+Date :  2019-03-29  Time :  20:00:00    Temperature(in Fahrenheit) :  277.71
+
 
 3. User input = 2
 
+Date :  2019-03-29  Time :  20:00:00    Wind Speed(in KMPH )  1.58
+
+
 4. User input = 3
 
-5. User input = 4
+Date :  2019-03-29  Time:  18:00:00    Pressure(in atm)  1031.934
+
+
+5. User input = 0
+
+ Thank you for your time 
+
 
 
 
